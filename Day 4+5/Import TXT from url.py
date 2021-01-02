@@ -1,6 +1,6 @@
 import urllib
 import requests
-url = "http://www.gutenberg.org/files/2600/2600-0.txt"
+url = "https://raw.githubusercontent.com/rjrealworld/Internity-Foundations/main/Day%204%2B5/War%20and%20Peace.txt"
 file = urllib.request.urlopen(url)
 
 for line in file:
